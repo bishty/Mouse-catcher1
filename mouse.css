@@ -1,0 +1,108 @@
+body {
+    background-image: url(https://images.pexels.com/photos/5876801/pexels-photo-5876801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+.main {
+    display: block;
+}
+#mouse1, #mouse2, #mouse3, #mouse4, #mouse5, #mouse6 ,#mouse7, #mouse8, #mouse9  {
+    height: 150px;
+    width: 150px;
+    border: 20px solid #dad6cf;
+    display: inline-flex;
+    margin: 30px;
+    border-radius: 100% 310px 51px 334px;
+
+    background: rgb(12, 92, 72);
+}
+img{
+    height: inherit;
+    width: inherit;
+    position: relative;
+    animation-name: rat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes rat {
+    0%   {top:-10px;}
+   
+    50%  {top:-100px;}
+  
+    100% {top:-40px;}
+  }
+
+.container{
+    background: rgba(0,0,0,.9);
+    padding: 60px;
+    height: 350px;
+    text-align: center;
+    margin-top: 79px;
+    position: relative;
+
+    width: max-content;
+}
+
+
+#startbtn{
+    position: absolute;
+    font-size: 16px;
+    padding: 10px 25px;
+    cursor: pointer;
+    background:#0d64e7;
+    border-radius: 7px;
+    color: rgb(207, 42, 42);
+    border: none;
+    bottom: 69px;
+    left: 236px;
+  
+}
+
+#menu{
+    position: absolute;
+    font-size: 16px;
+    padding: 10px 25px;
+    cursor: pointer;
+    background:#2acbe0;
+    border-radius: 7px;
+    color: white;
+    border: none;
+    bottom: 69px;
+   
+}
+
+#result{
+    display: none;
+    position: relative;
+}
+
+.popUp{
+    font-size: 30px;
+    color: white;
+    background: rgba(0,0,0,.9);
+    height: 200px;
+    margin-top: 79px;
+}
+
+#resultHScore{
+    position: relative;
+    bottom: 160px;
+    color: rgb(255, 230, 0);
+    font-size: 30px;
+}
+#ima{
+    height: 450px;
+    width: inherit;
+    position: relative;
+    animation-name: rat;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    
+
+}
